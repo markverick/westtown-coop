@@ -1,0 +1,237 @@
+.footer_image{
+    position:fixed;
+    bottom:0px;
+    left:50%;
+}
+@font-face {
+    font-family: 'chicken_hut'; /*a name to be used later*/
+    src: url('website_files/chicken_hut.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'DK Cool Crayon'; /*a name to be used later*/
+    src: url('website_files/DK Cool Crayon.ttf'); /*URL to font*/
+}
+.navbar-default{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 1px
+}
+.logo{
+    width: 100px;
+}
+.menu{
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:60;
+    height:56px;
+    width:100%;
+    color:#ccc;
+    box-shadow:0px 1px 3px 1px rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color:transparent
+}
+.overlay{
+  height:56px;
+}
+.menu-overlay{
+    visibility:hidden;
+    position:fixed;
+    z-index:2;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    opacity:0;
+    transition:opacity 0.25s ease, visibility 0.25s linear
+}
+.brand{
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'DK Cool Crayon';
+}
+.navbar{
+    text-align: center;
+}
+.lead {
+
+}
+h1.brand {
+  /*font-family: 'DK Cool Crayon';*/
+  font-size: 54px;
+  /*color: white;*/
+  /*text-shadow: 0 0 0.2em #09203d;*/
+}
+
+h2 {
+  /*font-family: 'chicken_hut';*/
+  font-size: 36px;
+  /*color: white;*/
+  /*text-shadow: 0 0 0.2em #123663;*/
+}
+
+html {
+   /* overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;*/
+    height: 100%;
+}
+
+body {
+    height: 100%;
+/*    box-sizing: border-box;
+    position: relative;
+*/    /*padding-bottom: 8rem;*/
+}
+
+.header {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 100%;
+    background-color: white;
+    opacity: .8;
+    border-bottom-color: #2d1e1a;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+.footer {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    /*position: absolute;*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /*border-top-color: #d3d0cb88;
+    border-top-width: 4px;
+    border-top-style: solid;*/
+
+    max-width: 100%;
+    background-color: rgb(38, 38, 38);
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.jumbotron{
+    background-color: rgb(249, 247, 242);;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: .5rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.main {
+    padding-top: 16px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 20px;
+    min-height: 100%;
+    /*position: absolute;*/
+    background-color: white;
+    opacity: .9;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
+}
+.bg {
+    background: #3d170e url("website_images/footer.jpg") no-repeat left top fixed;
+    background-size: cover;
+}
+.card {
+    background-color: #f9f7f2;
+    opacity: 1;
+}
+.card-body {
+    padding: 0.5rem;
+}
+.card-text {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+}
+.card-title {
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+h3.card-text {
+    margin-bottom: 0.2rem;
+    font-size: 2.5rem;
+}
+h3.card-title {
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+}
+.white {
+    color: #f9f7f2;
+}
+.black {
+    color: rgb(33, 37, 41); ;
+}
+.break {
+    margin-bottom: 0.8rem;
+}
+canvas {
+    height: 962px;
+}
+.chart-container {
+
+    height: 962px;
+}
+a {
+    color: #febe10;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+#copyright {
+  float: center;
+}
+#date {
+    margin-bottom: 0;
+}
+/*p {
+    margin-bottom: 0;
+}*/
+h5 {
+    font-size: 18px;
+}
+a.hideDisplay{
+position: relative;
+z-index: 20;
+color: #000;
+text-decoration:none:
+}
+
+a.hideDisplay:hover{
+Z-index: 20;	
+}
+
+a.hideDisplay span.showDisplayOnHover{
+	display: block;
+	position: absolute;
+	font-size: 18px;
+	line-height:25px;
+	top: 5px;
+	left: 20px;
+	width: auto;
+	padding: 10px;
+	border: 1px solid #666666;
+	background-color: #c0cedd;
+	text-align: left;
+}
+span.showBodyOfDisplayOnHover {
+	font-size: 16px;
+	font-weight: normal;
+	color: #444;
+	line-height: 18px;
+}
+

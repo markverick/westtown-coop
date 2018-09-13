@@ -1,0 +1,1 @@
+FATAL ERROR: water heater overheat. (water_temp = 185.0F) Raspberry Pi is shut down.
