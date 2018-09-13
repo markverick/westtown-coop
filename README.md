@@ -1,2 +1,2 @@
 # westtown-coop
-An archive of Westtown Lowerschool Chicken Coop Project. May not contain rivision history.
+An archive of Westtown Lowerschool Chicken Coop Project. This may not contain rivision history.
