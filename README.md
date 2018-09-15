@@ -3,4 +3,6 @@ An archive of Westtown Lowerschool Chicken Coop Project. This may not contain ri
 
 Authors
 - Sirapop Theeranantachai
+    - Work mainly on programming part and website development
 - Yiheng Xie
+    - Work mainly on hardware setup and digital sensors
